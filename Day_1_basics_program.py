@@ -76,3 +76,16 @@
 #
 # str = input("enter string: ")
 # print(Counter(str))
+
+# args
+
+def add(*args):
+    sum = 0
+    for i in args:
+        sum = sum + i
+    print("sum = ",sum)
+
+
+add(2,3)
+add(2,3,4)
+add(2,3,6,5)
