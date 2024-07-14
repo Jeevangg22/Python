@@ -10,6 +10,7 @@
 # num = [90, 29, 98, 34, 21, 99, 45]
 # print_largest(num)
 
+
 # Print even number in a given range
 # def range_even(begin, last):
 #     for i in range(begin, last):
@@ -19,6 +20,7 @@
 #
 # start, end = map(int, input("enter start and end range: ").split())
 # range_even(start, end)
+
 
 
 # Triangle pattern
@@ -32,6 +34,7 @@
 #
 # start, end = map(int, input("enter start and end range: ").split())
 # pattern(start, end)
+
 
 # square pattern
 # def pattern(begin, last):
