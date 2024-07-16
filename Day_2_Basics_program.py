@@ -56,3 +56,14 @@
 # list_a = [30,20,40,80,90,99,96,67,78,86]
 # res = second_largest(list_a)
 # print(f"second largest element in {res}")
+
+# Decimal to binary to hexa
+
+def decimal_To_binary(number):
+    binary = bin(number)
+    hexa = hex(number)
+    return binary,hexa
+
+number = int(input("Enter number: "))
+binary, hexa = decimal_To_binary(number)
+print(f"binary = {binary} --> {hexa}")
