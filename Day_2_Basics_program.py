@@ -67,3 +67,21 @@
 # number = int(input("Enter number: "))
 # binary, hexa = decimal_To_binary(number)
 # print(f"binary = {binary} --> {hexa}")
+
+# # program for finding perfect square
+# def is_perfect_square(num):
+#     if num < 1:
+#         return False
+#     root = int(num ** 0.5)
+#     return root * root == num
+#
+# # Examples
+# print(is_perfect_square(16))  # Output: True
+# print(is_perfect_square(9))  # Output: False
+
+
+# def factorial(n):
+#     return 1 if n == 0 else n * factorial(n - 1)
+#
+# # Example usage
+# print(factorial(5))  # Output: 120
