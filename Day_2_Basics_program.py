@@ -59,11 +59,11 @@
 
 # Decimal to binary to hexa
 
-def decimal_To_binary(number):
-    binary = bin(number)
-    hexa = hex(number)
-    return binary,hexa
-
-number = int(input("Enter number: "))
-binary, hexa = decimal_To_binary(number)
-print(f"binary = {binary} --> {hexa}")
+# def decimal_To_binary(number):
+#     binary = bin(number)
+#     hexa = hex(number)
+#     return binary,hexa
+#
+# number = int(input("Enter number: "))
+# binary, hexa = decimal_To_binary(number)
+# print(f"binary = {binary} --> {hexa}")
