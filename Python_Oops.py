@@ -120,6 +120,6 @@ Jeevan = child("Jeevan")
 
 # 2. Function level Polymorphism
 # len is an inbuilt function
-print(len("Program"))
-print(len(["python","Java","C"]))
-print(len({"name":"Jeevan","age":26}))
+# print(len("Program"))
+# print(len(["python","Java","C"]))
+# print(len({"name":"Jeevan","age":26}))
