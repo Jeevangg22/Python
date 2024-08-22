@@ -123,3 +123,27 @@ Jeevan = child("Jeevan")
 # print(len("Program"))
 # print(len(["python","Java","C"]))
 # print(len({"name":"Jeevan","age":26}))
+
+
+"""
+# User defined exception using class
+
+class accident(Exception):
+    def __init__(self,msg):
+        self.msg = msg
+
+    def print_exception(self):
+        print(f"User defined Exception: {self.msg} ")
+
+try:
+    raise accident("Crash between two vehicle")
+
+except accident as e:
+    e.print_exception()
+
+finally:
+    print("Please Don't Drink and Drive")
+    
+"""
+
+
